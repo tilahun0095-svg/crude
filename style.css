@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+   }
+   
+   .con {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   }
+   
+   h2 {
+    color: #333;
+   }
+   fieldset {
+    background-color: beige;
+     margin-top: 10%;
+     margin-left: 20%;
+     padding: auto;
+     border-radius: 5px;
+   }
+
+   form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 90%;
+   }
+   
+   form label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+   }
+   
+   form input[type="text"],
+   form input[type="number"],
+   form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+   }
+   
+   form input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+   }
+
+   form input[type="submit"]:hover{
+       cursor: pointer;
+       color: #f2f2f2;
+       
+      background-color: green;
+   }
+
+
+   
+   table {
+    width: 100%;
+    border-collapse: collapse;
+   }
+   
+   table,
+   th,
+   td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+   }
+   
+   th {
+    background-color: #f2f2f2;
+   }
+   
+   a {
+    color: #333;
+    text-decoration: none;
+   }
+   
+   a:hover {
+    text-decoration: underline;
+    
+   }
